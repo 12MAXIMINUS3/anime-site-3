@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" width="520" height="180">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#42a5f5"/>
+      <stop offset="1" stop-color="#0d47a1"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e88e5"/>
+      <stop offset="1" stop-color="#0a3d91"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Emblem: burst circle with shuriken star -->
+  <g transform="translate(90 90)">
+    <g stroke="#90caf9" stroke-width="4" stroke-linecap="round">
+      <line x1="0" y1="-86" x2="0" y2="-74"/><line x1="61" y1="-61" x2="52" y2="-52"/>
+      <line x1="86" y1="0" x2="74" y2="0"/><line x1="61" y1="61" x2="52" y2="52"/>
+      <line x1="0" y1="86" x2="0" y2="74"/><line x1="-61" y1="61" x2="-52" y2="52"/>
+      <line x1="-86" y1="0" x2="-74" y2="0"/><line x1="-61" y1="-61" x2="-52" y2="-52"/>
+    </g>
+    <circle r="68" fill="url(#bg)" stroke="#ffffff" stroke-width="6"/>
+    <circle r="68" fill="none" stroke="#0d47a1" stroke-width="2"/>
+    <path d="M0,-52 L13,-13 L52,0 L13,13 L0,52 L-13,13 L-52,0 L-13,-13 Z"
+          fill="#ffffff" transform="rotate(20)"/>
+    <circle r="11" fill="#0d47a1"/>
+    <circle r="4" fill="#ffffff"/>
+    <!-- sparkle -->
+    <path d="M40,-48 l3,9 9,3 -9,3 -3,9 -3,-9 -9,-3 9,-3z" fill="#e3f2fd"/>
+  </g>
+
+  <!-- Speed lines -->
+  <g stroke="#90caf9" stroke-width="3" stroke-linecap="round">
+    <line x1="176" y1="38" x2="214" y2="38"/>
+    <line x1="168" y1="50" x2="200" y2="50"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="'Arial Black', 'Arial', sans-serif" font-weight="900" font-style="italic">
+    <text x="182" y="98" font-size="58" fill="#ffffff" stroke="#ffffff" stroke-width="10" stroke-linejoin="round">ZEN</text>
+    <text x="182" y="98" font-size="58" fill="url(#txt)">ZEN</text>
+    <text x="318" y="98" font-size="40" fill="#1e88e5">FIGURE</text>
+    <text x="184" y="140" font-size="36" letter-spacing="10" fill="#0d47a1">HAVEN</text>
+  </g>
+
+  <!-- Japanese tagline badge -->
+  <rect x="380" y="114" width="128" height="32" rx="16" fill="#1e88e5"/>
+  <text x="444" y="137" text-anchor="middle" font-family="'Yu Gothic', 'Meiryo', 'MS Gothic', sans-serif"
+        font-size="19" font-weight="700" fill="#ffffff">フィギュア</text>
+
+  <line x1="184" y1="156" x2="508" y2="156" stroke="#bbdefb" stroke-width="3" stroke-linecap="round"/>
+</svg>

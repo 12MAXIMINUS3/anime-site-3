@@ -18,3 +18,39 @@ License URI:          https://themeforest.net/licenses
 All custom CSS should be added to Flatsome > Advanced > Custom CSS,
 or in the style.css of a Child Theme.
 ***************/
+
+/***************
+Blue & white site theme (applies to every page)
+***************/
+:root {
+  --primary-color: #0d47a1;
+  --fs-color-primary: #0d47a1;
+  --fs-color-secondary: #1e88e5;
+  --fs-color-success: #42a5f5;
+  --fs-color-alert: #1565c0;
+  --fs-color-base: #1a2b4c;
+  --fs-experimental-link-color: #1565c0;
+  --fs-experimental-link-color-hover: #0d47a1;
+  --wp--preset--color--primary: #0d47a1;
+  --wp--preset--color--secondary: #1e88e5;
+  --wp--preset--color--success: #42a5f5;
+  --wp--preset--color--alert: #1565c0;
+}
+
+html, .absolute-footer { background-color: #0a3d91 !important; }
+body, #wrapper, #main, .header-main { background-color: #ffffff; }
+.header-top { background-color: #0a3d91 !important; }
+.header-bottom { background-color: #e3f2fd !important; }
+.footer-1, .footer-2 { background-color: #0d47a1 !important; }
+.absolute-footer, .absolute-footer.dark { color: #ffffff !important; }
+
+.hex-shipping-banner, .zen-figures-banner { background: #0d47a1 !important; }
+.hex-shipping-text span, .zen-figures-text .zen-blue { color: #bbdefb !important; }
+
+.zenfh-quick-links a:hover, .zenfh-footer-tags a:hover,
+.zenfh-footer-contact a:hover, .zenfh-footer-contact .zenfh-contact-label { color: #64b5f6 !important; }
+
+.button.primary, .button.alt, .button.checkout, .checkout-button,
+.badge-inner.on-sale, .onsale { background-color: #1e88e5 !important; border-color: #1e88e5 !important; color: #ffffff !important; }
+.button.primary:hover, .button.alt:hover { background-color: #0d47a1 !important; }
+.price ins, .woocommerce-Price-amount { color: #0d47a1; }
